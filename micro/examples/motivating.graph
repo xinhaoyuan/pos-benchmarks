@@ -1,0 +1,21 @@
+# th A    th B
+# x       x
+# y       x
+# signal  y
+# z       wait
+#         y
+#         z
+00X 01Y 1
+01Y 02S 1
+02S 03Z 1
+10X 11X 1
+11X 12Y 1
+12Y 13W 1
+13W 14Y 1
+14Y 15Z 1
+02S 13W 1
+00X 10X 0
+00X 11X 0
+01Y 12Y 0
+01Y 14Y 0
+03Z 15Z 0
